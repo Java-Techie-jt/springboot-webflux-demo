@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.myproject.webflux.MonoFluxTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-03T12:42:19" hostname="197BLRNB29227" time="0.169">
+  <properties/>
+  <testcase name="testFlux()" classname="com.myproject.webflux.MonoFluxTest" time="0.169"/>
+  <system-out><![CDATA[18:12:19.285 [Test worker] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+18:12:19.301 [Test worker] INFO reactor.Flux.ConcatArray.1 - onSubscribe(FluxConcatArray.ConcatArraySubscriber)
+18:12:19.303 [Test worker] INFO reactor.Flux.ConcatArray.1 - request(unbounded)
+18:12:19.304 [Test worker] INFO reactor.Flux.ConcatArray.1 - onNext(StringA)
+Error Not Occurred : StringA
+18:12:19.305 [Test worker] INFO reactor.Flux.ConcatArray.1 - onNext(StringB)
+Error Not Occurred : StringB
+18:12:19.305 [Test worker] INFO reactor.Flux.ConcatArray.1 - onNext(StringC)
+Error Not Occurred : StringC
+18:12:19.305 [Test worker] INFO reactor.Flux.ConcatArray.1 - onNext(StringD)
+Error Not Occurred : StringD
+18:12:19.306 [Test worker] INFO reactor.Flux.ConcatArray.1 - onNext(StringE)
+Error Not Occurred : StringE
+18:12:19.307 [Test worker] INFO reactor.Flux.ConcatArray.1 - onComplete()
+18:12:19.309 [Test worker] INFO reactor.Flux.ConcatArray.1 - onSubscribe(FluxConcatArray.ConcatArraySubscriber)
+18:12:19.309 [Test worker] INFO reactor.Flux.ConcatArray.1 - request(unbounded)
+18:12:19.309 [Test worker] INFO reactor.Flux.ConcatArray.1 - onNext(StringA)
+18:12:19.310 [Test worker] INFO reactor.Flux.ConcatArray.1 - cancel()
+a : StringA
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
