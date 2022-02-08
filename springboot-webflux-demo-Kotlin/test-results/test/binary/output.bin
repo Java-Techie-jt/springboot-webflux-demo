@@ -1,19 +1,0 @@
-V18:12:19.285 [Test worker] DEBUG reactor.util.Loggers - Using Slf4j logging framework
-p18:12:19.301 [Test worker] INFO reactor.Flux.ConcatArray.1 - onSubscribe(FluxConcatArray.ConcatArraySubscriber)
-P18:12:19.303 [Test worker] INFO reactor.Flux.ConcatArray.1 - request(unbounded)
-M18:12:19.304 [Test worker] INFO reactor.Flux.ConcatArray.1 - onNext(StringA)
-Error Not Occurred : StringA
-M18:12:19.305 [Test worker] INFO reactor.Flux.ConcatArray.1 - onNext(StringB)
-Error Not Occurred : StringB
-M18:12:19.305 [Test worker] INFO reactor.Flux.ConcatArray.1 - onNext(StringC)
-Error Not Occurred : StringC
-M18:12:19.305 [Test worker] INFO reactor.Flux.ConcatArray.1 - onNext(StringD)
-Error Not Occurred : StringD
-M18:12:19.306 [Test worker] INFO reactor.Flux.ConcatArray.1 - onNext(StringE)
-Error Not Occurred : StringE
-J18:12:19.307 [Test worker] INFO reactor.Flux.ConcatArray.1 - onComplete()
-p18:12:19.309 [Test worker] INFO reactor.Flux.ConcatArray.1 - onSubscribe(FluxConcatArray.ConcatArraySubscriber)
-P18:12:19.309 [Test worker] INFO reactor.Flux.ConcatArray.1 - request(unbounded)
-M18:12:19.309 [Test worker] INFO reactor.Flux.ConcatArray.1 - onNext(StringA)
-F18:12:19.310 [Test worker] INFO reactor.Flux.ConcatArray.1 - cancel()
-a : StringA
